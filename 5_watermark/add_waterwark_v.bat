@@ -1,0 +1,1 @@
+ffmpeg -i ./test.mp4 -i ./watermark.png -filter_complex "overlay" ./test_watermarked_v.mp4

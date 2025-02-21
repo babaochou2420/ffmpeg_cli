@@ -1,0 +1,29 @@
+;FFMETADATA1
+
+; 專輯資訊
+;; 專輯的名稱
+album=東方幻想鄉
+;; 專輯的代表
+album_artist=八寶周
+;; 第幾首歌
+track=1
+;; 第幾磁碟
+disc=1
+
+; 創作資訊
+;; 樂曲的名稱
+title=Bad Apple!! PV【影絵】
+;; 樂曲的作曲
+composer=ZUN
+;; 樂曲的代表
+artist=あにら
+;; 樂曲的風格 (在 ID3v1 中有定義 148 個數值，但有些許特例，而且通常都懶著填。)
+;; https://en.wikipedia.org/wiki/List_of_ID3v1_genres
+genre=
+;; 樂曲的發行時間 (通常二選一，但也有留白。)
+year=2009
+date=2009
+;; 版權所屬
+copyright=babaochou2420.com
+;; 發行者
+publisher=八寶周的研究小屋

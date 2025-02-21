@@ -1,0 +1,1 @@
+ffmpeg -i ./test.mp4 -ss 00:00:49 -vf subtitles=test.srt -frames:v 1 "screenshot_outputseeking_sub.png"

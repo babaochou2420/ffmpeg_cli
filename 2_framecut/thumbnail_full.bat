@@ -1,0 +1,1 @@
+ffmpeg -i ./test.mp4 -vf thumbnail,scale=480:360 -frames:v 1 thumbnail_%%04d.png

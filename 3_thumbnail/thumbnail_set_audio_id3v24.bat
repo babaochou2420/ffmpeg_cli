@@ -1,0 +1,1 @@
+ffmpeg -i ./test.mp3 -i ./thumbnail.png -map 1 -map 0 -c copy -disposition:0 attached_pic ./test_newthumbnail.mp3

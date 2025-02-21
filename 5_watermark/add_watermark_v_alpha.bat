@@ -1,0 +1,1 @@
+ffmpeg -i ./test.mp4 -i ./watermark.png -filter_complex "[1]format=rgba,colorchannelmixer=aa=0.3[img];[0][img]overlay" ./test_watermarked_v_alpha.mp4
