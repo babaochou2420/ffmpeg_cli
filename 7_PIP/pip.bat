@@ -1,0 +1,1 @@
+ffmpeg -i ./test_touhou.mp4 -i ./test_uma.mp4 -filter_complex "[1:v][0:v]scale='w=oh*dar:h=rh/4'[s_vid],[0:v][s_vid]overlay=10:10" ./pip.mp4

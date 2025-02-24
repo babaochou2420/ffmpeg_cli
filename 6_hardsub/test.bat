@@ -1,0 +1,1 @@
+ffmpeg -i ./test.srt -c:s ass ./test.ass

@@ -1,0 +1,1 @@
+ffmpeg -i ./test.mp4 -i ./test.srt -i ./test_eng.srt -map 0 -map 1 -map 2 -c copy -c:s mov_text -metadata:s:s:0 language=jpn -metadata:s:s:1 language=eng test_softcoded_multichannel.mp4

@@ -1,0 +1,1 @@
+ffmpeg -i ./test.mp4 -vf "subtitles=test.srt:force_style='Fontname=Arial,Fontsize=24,PrimaryColour=&H00FF21&,BackColour=&H000000&,Bold=1,Italic=1,Alignment=2,BorderStyle=3,Outline=2,Shadow=1,MarginV=30'" ./test_hardcoded_srt_stylized.mp4

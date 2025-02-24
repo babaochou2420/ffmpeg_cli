@@ -1,0 +1,1 @@
+ffmpeg -i ./test_touhou.mp4 -i ./test_holo.mp4 -i ./test_uma.mp4 -i ./test_sekai.mp4 -filter_complex "[0:v]scale=960:540[v0];[1:v]scale=960:540[v1];[2:v]scale=960:540[v2];[3:v]scale=960:540[v3];[v0][v1][v2][v3]xstack=inputs=4:layout=0_0|w0_0|0_h0|w0_h0[v]" -map "[v]" -preset fast ./pbp.mp4

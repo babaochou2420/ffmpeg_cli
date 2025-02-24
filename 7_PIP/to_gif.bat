@@ -1,0 +1,1 @@
+ffmpeg -i ./output.mp4 -vf "fps=30,scale=320:-1:flags=lanczos" output.gif

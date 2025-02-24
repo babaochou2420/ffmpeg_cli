@@ -1,0 +1,1 @@
+ffmpeg -i ./pip.mp4 -ss 00:01:56 -to 00:00:49 output.mp4

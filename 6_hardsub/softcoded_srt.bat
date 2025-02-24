@@ -1,0 +1,1 @@
+ffmpeg -i ./test.mp4 -i ./test.srt -c copy -c:s mov_text -metadata:s:s:0 language=jpn test_softcoded_srt.mp4

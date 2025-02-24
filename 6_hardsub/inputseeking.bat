@@ -1,0 +1,1 @@
+ffmpeg -ss 00:00:49 -i ./test_hardcoded_srt.mp4 -frames:v 1 "screenshot_inputseeking.png"

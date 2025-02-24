@@ -1,0 +1,1 @@
+ffmpeg -i ./test.mp4 -vf subtitles=test_jpn.srt ./test_hardcoded_srt.mp4
